@@ -3,10 +3,6 @@ const moment = require('moment')
 
 
 //Exercise1
-module.exports.prepareData = (data)=>{
-    let preData = data.toString().replace(/,/g, ' ')
-    return preData;
-}
 
 module.exports.removeUnessarySpacess = (data)=>{
     let preData = data.replace(/[`~!@#$%^&*()_|+\-=?;:'",.\n\{\}\[\]\\\/]/gi, ' ').replace(/\s+/g, ' ')
@@ -14,9 +10,6 @@ module.exports.removeUnessarySpacess = (data)=>{
 }
 
 module.exports.countString= (data)=>{
-    // let obj={};
-    // // let returnData = data.map(k=>obj[k]=0).map((_,i)=>{ obj[data[i]]+=1 })
-    // console.log(obj);
 
 let obj2={}
 for(i=0;i<data.length;i++)
