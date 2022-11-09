@@ -1,6 +1,6 @@
 # setup
 1. Donwload source code
-2. got to dir 
+2. go to dir 
 3. npm i -- to install package lib  
 
 # start 
